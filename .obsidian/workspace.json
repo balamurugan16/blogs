@@ -1,0 +1,147 @@
+{
+  "main": {
+    "id": "a9e10b6261e81c31",
+    "type": "split",
+    "children": [
+      {
+        "id": "291e9c8e936857ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "960d4aef10d6ece6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bfde078dce5d828a",
+    "type": "split",
+    "children": [
+      {
+        "id": "c199a7cb971cf0e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07d1b01850aeac25",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "588795a3e32250e5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b2b4078db1139189",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9e6473a997a6a35e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c950bfdd19d24e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0f08ad70ee5aea6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ddc619b1284f5e39",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2095be1fc2c4a53b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6b47ec28059f0364",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "960d4aef10d6ece6",
+  "lastOpenFiles": [
+    "Structural vs Nominal Typing.md",
+    "structural and nominal type systems/Structural vs Nominal Typing.md",
+    "structural and nominal type systems"
+  ]
+}
