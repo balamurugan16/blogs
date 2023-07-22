@@ -1,9 +1,10 @@
-The age of preferring dynamically typed languages is changing right now. People start to lean over languages like TypeScript, Go, Rust over languages like Python, Ruby and JavaScript. I am not here to spread hatred on dynamically typed languages, they are excellent in their own ways but when it comes to my personal choice, I would choose Statically typed languages any day even though they would be a pain in the ass to work with (sometimes).
+# 🌟 The Shifting Tides: Dynamic vs. Static Typing in Modern Languages 🌊
 
-When it comes to Static type system, one key attribute is whether they follow structural or nominal typing. Let me give an example and explain either of them.
+## Introduction: 📝 
+As technology advances, our preferences for programming languages are evolving too. Nowadays, more people are favoring statically typed languages like TypeScript, Go, and Rust over dynamically typed ones like Python, Ruby, and JavaScript. While there's no need to dislike dynamic languages (they have their strengths!), personally, I find statically typed languages my top choice, even if they can be a bit tricky to work with sometimes. 💻💪
 
-### Structural typing
-Look at the example below in TypeScript (It follows structural typing BTW)
+## Understanding Structural Typing 🛠️
+Structural typing is well illustrated in TypeScript. Let's see an example:
 ```ts
 type Car = {
   name: string;
@@ -19,10 +20,10 @@ const myCar: Car = {
 
 const myBike: Bike = myCar;
 ```
-In the above example, TypeScript won't give any errors when we assign a variable of type Car to a variable of type Bike. Because even though the names of the type definitions are different, The shape of the types are not. Both has a property name of type string. Classes and interfaces in TypeScript will also have the same behavior. 
+In this TypeScript example, there are no errors when we assign a variable of type `Car` to a variable of type `Bike`. Why? Because both types have the same structure, even though they have different names for their definitions. They both have a property called `name` with a type of string. This flexibility is a key feature of structural typing, which applies to classes and interfaces in TypeScript too. 🏗️🧱
 
-## Nominal typing
-Look at the example below in Java (It follows nominal typing)
+## Exploring Nominal Typing 🏭
+Java represents nominal typing. Let's see how it works:
 ```java
 class Car {
     String name;
@@ -38,16 +39,19 @@ public class Program
         Car car = new Car();
         car.name = "Fortuner";
         
-        Bike bike = car;
+        Bike bike = car; // This line will raise a type error in Java
     }
 }
 ```
-In the above example, Java will point out the incompatible types because they are of different type even though the shape of the type is the same.
+In this Java example, you'll encounter an "incompatible types" error when trying to assign a variable of type `Car` to a variable of type `Bike`. Java strictly enforces nominal typing, so even if the types have the same structure, they must explicitly be of the same named type. 🛠️🚧
 
-## Pros and Cons
+## Pros and Cons of Each Approach 🤝✅❌
 
-Structural types gives more flexibility. It follows the pattern of [Duck typing](https://en.wikipedia.org/wiki/Duck_typing), which is "If it walks like a duck and it quacks like a duck, then it must be a duck!". Structural typing also provides the same level of security as nominal typing. 
+Structural typing offers incredible flexibility, following the famous "Duck typing" principle: "If it walks like a duck and it quacks like a duck, then it must be a duck!" It also maintains a good level of security similar to nominal typing.
 
-Nominal types have their own use cases. Languages like C++ and Java has nominal type system. It often times requires a lot of boilerplate code to achieve all sorts of relationships that exists to make it work. 
+On the other hand, nominal typing, seen in languages like C++ and Java, has its own set of use cases. However, it often involves writing more boilerplate code to handle the relationships between various types.
 
-> That's it folks. Knowing these minute details about the tools that you are using will give you a slight edge over others and my job would be coming up with such content with my blogs.
+## Conclusion: 🎯 
+Understanding the differences between static and dynamic typing, along with the nuances of structural and nominal typing, can give you an advantage in your programming journey. Making informed decisions when choosing the right language for specific projects becomes easier. Happy coding! 🚀👩‍💻
+
+> That's a wrap! Creating content like this for my blogs allows me to share these insightful details with you all. 📚🔍 If you found this helpful, stay tuned for more tech-focused content in the future! Feel free to share your thoughts and experiences in the comments below. 🗣️😊

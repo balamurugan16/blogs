@@ -11,8 +11,12 @@
             "id": "960d4aef10d6ece6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "structural and nominal type systems/Structural vs Nominal Typing.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#🌟",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "structural and nominal type systems/Structural vs Nominal Typing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "structural and nominal type systems/Structural vs Nominal Typing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "structural and nominal type systems/Structural vs Nominal Typing.md"
+              }
             }
           }
         ]
@@ -138,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "960d4aef10d6ece6",
+  "active": "588795a3e32250e5",
   "lastOpenFiles": [
     "Structural vs Nominal Typing.md",
     "structural and nominal type systems/Structural vs Nominal Typing.md",
